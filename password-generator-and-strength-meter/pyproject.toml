@@ -1,9 +1,10 @@
 [project]
-name = "unit-converter"
+name = "password-generator-and-strength-meter"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "pyzxcvbn>=0.8.0",
     "streamlit>=1.43.2",
 ]
