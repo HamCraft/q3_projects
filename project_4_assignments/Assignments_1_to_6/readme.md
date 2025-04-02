@@ -1,0 +1,1 @@
+Assignments 1 to 6 = https://colab.research.google.com/drive/1TgqV8KvZ_ZKr5OcDLYx-BzfZKAFXzkii?usp=sharing
