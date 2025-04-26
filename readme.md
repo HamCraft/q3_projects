@@ -6,3 +6,6 @@ Password Strength Meter: https://password-generator-and-strength-meter-ahmed-yaq
 
 Personal Library Manager: https://plm-database-ahmed.streamlit.app/
 
+Complete_Traditional_OOP_Practice_Series: https://colab.research.google.com/drive/1hlXs5BjARciPLkVxc9z0cdSRT4eh4Gd_?usp=sharing
+
+
