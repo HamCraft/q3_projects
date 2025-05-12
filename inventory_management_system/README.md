@@ -35,7 +35,3 @@ Example: ID: E001, Quantity: 5.
 9. Load from File: Enter filename to load inventory.
 10. Exit: Close the program.
 
-
-
-License
-MIT License
