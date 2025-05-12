@@ -1,36 +1,43 @@
-Inventory Management System
-A Python-based OOP application to manage products, track stock, process sales, and save/load inventory data in JSON format.
-Features
+# Inventory Management System
 
-Manage Electronics, Grocery, and Clothing products.
-Restock, sell, and search products by name or type.
-Calculate total inventory value and remove expired groceries.
-Interactive CLI menu for easy operation.
-Save/load inventory to/from JSON files.
+A Python-based OOP (Object-Oriented Programming) application for managing inventory — including products, stock tracking, sales processing, and JSON-based data persistence.
 
-Usage
+## Features
 
-Requirements: Python 3.x (no external libraries needed).
-Run the Program:python inventory_management_system.py
+- Manage Electronics, Grocery, and Clothing products.
+- Restock, sell, and search products by name or type.
+- Calculate total inventory value and remove expired groceries.
+- Interactive CLI menu for easy operation.
+- Save/load inventory to/from JSON files.
 
+## Usage
 
-CLI Menu Options:
-1. Add Product: Choose product type (Electronics/Grocery/Clothing), enter ID, name, price, stock, and type-specific details (e.g., warranty/brand for Electronics, expiry date for Grocery, size/material for Clothing).
-Example: Add Electronics → ID: E001, Name: Laptop, Price: 999.99, Stock: 10, Warranty: 2 years, Brand: TechCorp.
+**Requirements:** Python 3.x (no external libraries needed)  
+**Run the Program:**
+```bash
+python inventory_management_system.py
 
+CLI Menu Options
 
-2. Sell Product: Enter product ID and quantity to sell.
-Example: ID: E001, Quantity: 2.
+    Add Product – Choose product type (Electronics, Grocery, or Clothing) and enter ID, name, price, stock, and type-specific details.
+    Example: Add Electronics → ID: E001, Name: Laptop, Price: 999.99, Stock: 10, Warranty: 2 years, Brand: TechCorp
 
+    Sell Product – Enter product ID and quantity to sell.
+    Example: ID: E001, Quantity: 2
 
-3. Search by Name: Enter product name to view matching products.
-4. Search by Type: Enter type (Electronics/Grocery/Clothing) to list products.
-5. List All Products: Display all products in inventory.
-6. Restock Product: Enter product ID and quantity to restock.
-Example: ID: E001, Quantity: 5.
+    Search by Name – Enter product name to view matching products.
 
+    Search by Type – Enter type (Electronics, Grocery, or Clothing) to list products.
 
-7. Remove Expired Products: Remove all expired Grocery items.
-8. Save to File: Enter filename (e.g., inventory.json) to save inventory.
-9. Load from File: Enter filename to load inventory.
-10. Exit: Close the program.
+    List All Products – Display all products in inventory.
+
+    Restock Product – Enter product ID and quantity to restock.
+    Example: ID: E001, Quantity: 5
+
+    Remove Expired Products – Remove all expired Grocery items.
+
+    Save to File – Enter filename (e.g., inventory.json) to save inventory.
+
+    Load from File – Enter filename to load inventory.
+
+    Exit – Close the program.
